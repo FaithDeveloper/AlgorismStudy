@@ -1,5 +1,3 @@
-package sort;
-
 import java.util.Arrays;
 /**
  *  두 인접한 원소를 검사하여 정렬하는 방법

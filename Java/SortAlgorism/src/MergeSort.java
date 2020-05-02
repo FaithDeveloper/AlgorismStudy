@@ -1,5 +1,3 @@
-package sort;
-
 import java.util.Arrays;
 /**
  * 병합 정렬 또는 합병정렬로 크기가 1인 정렬이 나올 때가지 나눈 후 병합하며 정렬하는 방식입니다

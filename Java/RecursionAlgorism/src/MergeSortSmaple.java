@@ -1,5 +1,3 @@
-package recursion;
-
 import java.util.Arrays;
 
 public class MergeSortSmaple {

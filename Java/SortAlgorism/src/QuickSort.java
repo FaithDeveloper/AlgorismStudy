@@ -1,5 +1,3 @@
-package sort;
-
 import java.util.Arrays;
 /**
  * 퀵 정렬 알고리즘.

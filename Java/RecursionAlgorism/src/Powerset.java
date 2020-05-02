@@ -1,5 +1,3 @@
-package recursion;
-
 public class Powerset {
 	static boolean[] hasThis;
 	static char[] datas = new char[] {'a', 'b', 'c', 'd','e'};
