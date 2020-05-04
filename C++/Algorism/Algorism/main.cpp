@@ -8,10 +8,13 @@
 
 #include <stdio.h>
 #include "Sort/MergeSort.cpp"
+#include "Sort/SelectionSort.cpp"
+#include "Sort/BubbleSort.cpp"
+#include "Sort/InsertionSort.cpp"
+#include "Sort/Quicksort.cpp"
+
+
 int main(int argc, const char * argv[]) {
-    
-    MergeSort m = MergeSort();
-    m.start();
-    
+        
     return 0;
 }
