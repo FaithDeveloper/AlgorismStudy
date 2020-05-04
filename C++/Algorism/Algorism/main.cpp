@@ -11,10 +11,13 @@
 #include "Sort/SelectionSort.cpp"
 #include "Sort/BubbleSort.cpp"
 #include "Sort/InsertionSort.cpp"
-#include "Sort/Quicksort.cpp"
+#include "Sort/QuickSort.cpp"
 
 
 int main(int argc, const char * argv[]) {
-        
+    
+    QuickSort m = QuickSort();
+    m.start();
+    
     return 0;
 }

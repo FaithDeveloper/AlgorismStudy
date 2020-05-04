@@ -7,16 +7,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "68D559F6-182C-4788-B9C0-69AE00CCD66C"
-            shouldBeEnabled = "Yes"
+            uuid = "AABC8169-1B0F-4171-A8FE-C70519C5C20B"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Algorism/Sort/QuickSort.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "start()"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "quick(arr, start, end)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
