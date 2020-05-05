@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		025859F12461A6CB00DE83FC /* STLSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 025859F02461A6CB00DE83FC /* STLSort.cpp */; };
+		025859F42461A90700DE83FC /* Student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 025859F32461A90700DE83FC /* Student.cpp */; };
+		025859F62461B6A500DE83FC /* PairUsingSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 025859F52461B6A500DE83FC /* PairUsingSort.cpp */; };
 		02BFAC37245D6F9800898768 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02BFAC36245D6F9800898768 /* main.cpp */; };
 		02BFAC46245DD10600898768 /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02BFAC45245DD10600898768 /* MergeSort.cpp */; };
 		02BFAC49245DD16100898768 /* SelectionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02BFAC48245DD16100898768 /* SelectionSort.cpp */; };
@@ -28,6 +31,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		025859F02461A6CB00DE83FC /* STLSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STLSort.cpp; sourceTree = "<group>"; };
+		025859F32461A90700DE83FC /* Student.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Student.cpp; sourceTree = "<group>"; };
+		025859F52461B6A500DE83FC /* PairUsingSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PairUsingSort.cpp; sourceTree = "<group>"; };
 		02BFAC33245D6F9800898768 /* Algorism */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorism; sourceTree = BUILT_PRODUCTS_DIR; };
 		02BFAC36245D6F9800898768 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		02BFAC45245DD10600898768 /* MergeSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSort.cpp; sourceTree = "<group>"; };
@@ -48,6 +54,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		025859F22461A8F500DE83FC /* STL */ = {
+			isa = PBXGroup;
+			children = (
+				025859F02461A6CB00DE83FC /* STLSort.cpp */,
+				025859F32461A90700DE83FC /* Student.cpp */,
+				025859F52461B6A500DE83FC /* PairUsingSort.cpp */,
+			);
+			path = STL;
+			sourceTree = "<group>";
+		};
 		02BFAC2A245D6F9800898768 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +92,7 @@
 		02BFAC47245DD14B00898768 /* Sort */ = {
 			isa = PBXGroup;
 			children = (
+				025859F22461A8F500DE83FC /* STL */,
 				02BFAC45245DD10600898768 /* MergeSort.cpp */,
 				02BFAC48245DD16100898768 /* SelectionSort.cpp */,
 				02BFAC4A245DD17000898768 /* BubbleSort.cpp */,
@@ -145,9 +162,12 @@
 				02BFAC4D245DD22400898768 /* InsertionSort.cpp in Sources */,
 				02BFAC52245DD25000898768 /* QuickSort.cpp in Sources */,
 				02BFAC49245DD16100898768 /* SelectionSort.cpp in Sources */,
+				025859F42461A90700DE83FC /* Student.cpp in Sources */,
 				02BFAC46245DD10600898768 /* MergeSort.cpp in Sources */,
 				02BFAC37245D6F9800898768 /* main.cpp in Sources */,
 				02BFAC4B245DD17000898768 /* BubbleSort.cpp in Sources */,
+				025859F62461B6A500DE83FC /* PairUsingSort.cpp in Sources */,
+				025859F12461A6CB00DE83FC /* STLSort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
