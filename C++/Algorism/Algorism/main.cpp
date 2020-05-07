@@ -18,11 +18,12 @@
 #include "Sort/QuickSort.cpp"
 #include "Sort/STL/STLSort.cpp"
 #include "Sort/STL/PairUsingSort.cpp"
+#include "Sort/HeapSort.cpp"
 
 
 int main(int argc, const char * argv[]) {
     
-    PairUsingSort m = PairUsingSort();
+    HeapSort m = HeapSort();
     m.start();
     
     return 0;
