@@ -14,7 +14,7 @@ class HeapSort{
     int heap[9] = {7, 6, 5, 8, 3, 5, 9 ,1, 6};
 
 public:
-    void start(){
+   void start(){
         // 힙 구성
         for(int i=1; i<number; i++){
             int c = i;
@@ -39,6 +39,7 @@ public:
                 c = 2 * root + 1; // 자식의 왼쪽 값은 루트의 * 2 + 1 이다.
                 // 자식 중에서 큰값 찾기
                 // 위의 변경된 값보다는 작아야한다.
+                // 이미 위에서 힙정렬이 된 상태이기에 자식 노드 중에서 큰 수와 상위 노드를 비교하여도 된다.
                 if(c < i  - 1 && heap[c] < heap[c + 1]){
                     c++;
                 }
