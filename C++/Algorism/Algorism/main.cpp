@@ -11,6 +11,7 @@
 
 
 #include <stdio.h>
+#include "Sort/Test.cpp"
 #include "Sort/MergeSort.cpp"
 #include "Sort/SelectionSort.cpp"
 #include "Sort/BubbleSort.cpp"
@@ -19,11 +20,11 @@
 #include "Sort/STL/STLSort.cpp"
 #include "Sort/STL/PairUsingSort.cpp"
 #include "Sort/HeapSort.cpp"
-
+#include "Sort/CountingSort.cpp"
 
 int main(int argc, const char * argv[]) {
     
-    HeapSort m = HeapSort();
+    CountingSort m = CountingSort();
     m.start();
     
     return 0;
