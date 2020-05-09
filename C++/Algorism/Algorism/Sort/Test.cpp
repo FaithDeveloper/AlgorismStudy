@@ -6,32 +6,35 @@
 //  Copyright © 2020 신규찬. All rights reserved.
 //
 
-#include <stdio.h>
+#include <iostream>
+#include <iomanip>
+#include <limits>
+
+using namespace std;
 
 class Test {
 public:
-    int countArray[10001];
-    
+    int i = 4;
+    double d = 4.0;
+    string s = "HackerRank ";
     void start(){
-        int count;
-        scanf("%d", &count);
-        
-        for(int i = 0; i<10001;i++){
-            countArray[i] = 0;
-        }
-        
-        for(int i = 0; i < count; i++){
-            int data;
-            scanf("%d", &data);
-            countArray[data]++;
-        }
-        
-        for(int i= 0; i<10001; i++){
-//            if(countArray[i] > 0){
-                for(int j = 0; j < countArray[i]; j++){
-                    printf("%d\n", i);
-                }
-//            }
-        }
+       // Declare second integer, double, and String variables.
+        int _i;
+        double _d;
+        string _s;
+        // Read and save an integer, double, and String to your variables.
+        // Note: If you have trouble reading the entire string, please go back and review the Tutorial closely.
+        scanf("%d", &_i);
+        scanf("%lf", &_d);
+        scanf("%s", &_s);
+        // Print the sum of both integer variables on a new line.
+        printf("%d\n", i + _i);
+        // Print the sum of the double variables on a new line.
+        printf("%.f\n", d + _d);
+        std::cout << d + _d;
+        // Concatenate and print the String variables on a new line
+        // The 's' variable above should be printed first.
+        s += _s;
+        std::cout << s;
     }
 };

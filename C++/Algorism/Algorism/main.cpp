@@ -24,7 +24,7 @@
 
 int main(int argc, const char * argv[]) {
     
-    CountingSort m = CountingSort();
+    Test m = Test();
     m.start();
     
     return 0;
