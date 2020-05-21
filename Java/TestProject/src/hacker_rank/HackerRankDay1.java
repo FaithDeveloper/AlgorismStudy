@@ -1,4 +1,4 @@
-package conditional_tatements;
+package hacker_rank;
 import java.io.*;
 import java.util.*;
 import java.text.*;
