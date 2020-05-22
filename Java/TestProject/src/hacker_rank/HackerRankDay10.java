@@ -1,87 +1,32 @@
 package hacker_rank;
 import java.util.*;
 
-class Person {
-	protected String firstName;
-	protected String lastName;
-	protected int idNumber;
-	
-	// Constructor
-	Person(String firstName, String lastName, int identification){
-		this.firstName = firstName;
-		this.lastName = lastName;
-		this.idNumber = identification;
-	}
-	
-	// Print person data
-	public void printPerson(){
-		 System.out.println(
-				"Name: " + lastName + ", " + firstName 
-			+ 	"\nID: " + idNumber); 
-	}
-	 
-}
-
-class Student extends Person{
-	private int[] testScores;
-
-    /*	
-    *   Class Constructor
-    *   
-    *   @param firstName - A string denoting the Person's first name.
-    *   @param lastName - A string denoting the Person's last name.
-    *   @param id - An integer denoting the Person's ID number.
-    *   @param scores - An array of integers denoting the Person's test scores.
-    */
-    // Write your constructor here
-    public Student(String firstName, String lastName, int id, int[] scores) {
-        super(firstName, lastName, id);
-        this.testScores = scores;
-    }
-    /*	
-    *   Method Name: calculate
-    *   @return A character denoting the grade.
-    */
-    // Write your method here
-    public String calculate(){
-        int sum = 0;
-        for(int i =0; i<testScores.length; i++){
-            sum += testScores[i];
-        }
-        int age = sum / testScores.length;
-        if(age >= 90){
-            return "O";
-        }else if(age >= 80){
-            return "E";
-        }else if(age >= 70){
-            return "A";
-        }else if(age >= 55){
-            return "P";
-        }else if(age >= 40){
-            return "D";
-        }else{
-            return "T";
-        }
-    }
-}
-
 public class HackerRankDay10 {
-
+	 private static final Scanner scanner = new Scanner(System.in);
+	 
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
-		String firstName = scan.next();
-		String lastName = scan.next();
-		int id = scan.nextInt();
-		int numScores = scan.nextInt();
-		int[] testScores = new int[numScores];
-		for(int i = 0; i < numScores; i++){
-			testScores[i] = scan.nextInt();
-		}
-		scan.close();		
-		
-		Student s = new Student(firstName, lastName, id, testScores);
-		s.printPerson();
-		System.out.println("Grade: " + s.calculate() );
+		  ArrayList<Integer> binary = new ArrayList<Integer>();
+	        int n = scanner.nextInt();
+	        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+	  while(n > 0) {
+	             binary.add(0, n % 2);
+	             n /= 2;
+	         }
+	            
+	         int maxCount = 0;
+	         int count = 0;
+	         for(int i = 0; i< binary.size(); i++) {
+	             if(binary.get(i) == 1) {
+	                 ++count;
+	                 if(maxCount < count) {
+	                     maxCount = count;
+	                 }
+	             }else {
+	                 count = 0;
+	             }
+	         }
+	         System.out.println(""+maxCount);
+	        scanner.close();
 	}
 
 }
