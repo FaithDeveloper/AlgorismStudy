@@ -47,7 +47,7 @@ public class HackerRankDay11 {
         				}
         			}
 	        	}
-        		// 최대값 갱
+        		// 최대값 갱신
         		if(max < arrSum[index]) {
         			max = arrSum[index];
         		}
