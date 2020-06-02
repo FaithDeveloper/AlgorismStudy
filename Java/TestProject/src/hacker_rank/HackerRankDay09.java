@@ -7,7 +7,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-public class HackerRankDay9 {
+public class HackerRankDay09 {
 
 	 // Complete the factorial function below.
     static int factorial(int n) {

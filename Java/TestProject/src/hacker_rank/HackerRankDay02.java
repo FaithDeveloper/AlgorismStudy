@@ -7,7 +7,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-public class HackerRankDay2 {
+public class HackerRankDay02 {
 	// Complete the solve function below.
     static void solve(double meal_cost, int tip_percent, int tax_percent) {
     	double i = meal_cost;

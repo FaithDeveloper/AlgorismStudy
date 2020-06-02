@@ -5,7 +5,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class HackerRankDay1 {
+public class HackerRankDay01 {
 
 	public static void main(String[] args) {
 		int i = 4;

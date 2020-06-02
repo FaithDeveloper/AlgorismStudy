@@ -8,7 +8,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-public class HackerRankDay5 {
+public class HackerRankDay05 {
 
     private static final Scanner scanner = new Scanner(System.in);
 

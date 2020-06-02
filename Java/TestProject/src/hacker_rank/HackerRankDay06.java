@@ -6,7 +6,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class HackerRankDay6 {
+public class HackerRankDay06 {
 	private static final Scanner scanner = new Scanner(System.in);
 
 	public static void main(String[] args) {

@@ -8,7 +8,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-public class HackerRankDay8 {
+public class HackerRankDay08 {
 	
 	 public static void main(String []argh){
 		    HashMap map = new HashMap<String, Integer>();

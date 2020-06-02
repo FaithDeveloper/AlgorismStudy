@@ -2,10 +2,10 @@ package hacker_rank;
 import java.io.*;
 import java.util.*;
 
-public class HackerRankDay4 {
+public class HackerRankDay04 {
 	    private int age;	
   
-	public HackerRankDay4(int initialAge) {
+	public HackerRankDay04(int initialAge) {
   		// Add some more code to run some checks on initialAge
 		if(initialAge <= 0) {
 			System.out.println("Age is not valid, setting age to 0.");
@@ -38,7 +38,7 @@ public class HackerRankDay4 {
 		int T = sc.nextInt();
 		for (int i = 0; i < T; i++) {
 			int age = sc.nextInt();
-			HackerRankDay4 p = new HackerRankDay4(age);
+			HackerRankDay04 p = new HackerRankDay04(age);
 			p.amIOld();
 			for (int j = 0; j < 3; j++) {
 				p.yearPasses();
