@@ -16,10 +16,12 @@ class Difference {
   	
   	public void computeDifference() {
   		int max = elements.length;
-  		
+  		 
   		if(max == 0) {
+  	  		//방어 코드
   			return;
   		}else if(max == 1) {
+  	  		//방어 코드
   			if(maximumDifference < elements[0]) {
   				maximumDifference = elements[0];
   			}
