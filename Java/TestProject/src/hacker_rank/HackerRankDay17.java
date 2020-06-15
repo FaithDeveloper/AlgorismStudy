@@ -2,7 +2,8 @@ package hacker_rank;
 import java.util.*;
 import java.io.*;
 
-class Calculator {
+
+public class HackerRankDay17 {
 	public int power(int n, int p) throws Exception {
 		if(n < 0 || p < 0) {
 			throw new Exception("n and p should be non-negative");	
@@ -10,9 +11,6 @@ class Calculator {
 		
 		return (int) Math.pow((double) n,(double) p);
 	}
-}
-
-public class HanckerRankDay17 {
 	
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
@@ -21,7 +19,7 @@ public class HanckerRankDay17 {
         
             int n = in.nextInt();
             int p = in.nextInt();
-            Calculator myCalculator = new Calculator();
+            HackerRankDay17 myCalculator = new HackerRankDay17();
             try {
                 int ans = myCalculator.power(n, p);
                 System.out.println(ans);
