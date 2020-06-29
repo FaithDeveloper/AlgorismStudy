@@ -41,19 +41,20 @@ public class HackerRankDay22 {
 	}
 
 	public static Node22 insert(Node22 root, int data) {
-		if (root == null) {
+		if(root == null) {
 			return new Node22(data);
-		} else {
+		}else {
 			Node22 cur;
-			if (data <= root.data) {
+			if(data < root.data) {
 				cur = insert(root.left, data);
 				root.left = cur;
-			} else {
+			}else {
 				cur = insert(root.right, data);
 				root.right = cur;
 			}
 			return root;
 		}
+		
 	}
 
 	public static void main(String args[]) {
